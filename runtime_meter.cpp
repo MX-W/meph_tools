@@ -2,7 +2,7 @@
 
 
 
-
+//trololo
 runtime_meter::runtime_meter(string ID, long precision, ostream* os = nullptr) :
 ID(ID),
 inUse(false),
@@ -53,7 +53,7 @@ string runtime_meter::precisionToString(double prec, bool longFormat)
 	{
 		if (prec == 1) return "s";
 		else if (prec == 1000) return "ms";
-		else if (prec == 1000000) return "µs";
+		else if (prec == 1000000) return "Âµs";
 		else if (prec == 1000000000) return "ns";
 		else if (prec == (1 / 60.0)) return "m";
 		else if (prec == (1 / 3600.0)) return "h";
