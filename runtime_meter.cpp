@@ -2,7 +2,6 @@
 
 
 
-//trololo
 runtime_meter::runtime_meter(string ID, long precision, ostream* os = nullptr) :
 ID(ID),
 inUse(false),
